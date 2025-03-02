@@ -177,28 +177,4 @@ npm start
 - `DELETE /api/orders/:orderId` → Cancel an order  
 
 ### **💳 Payment (Stripe)**  
-- `POST /api/checkout/payment` → Process payment  
-
----
-
-## 📸 Screenshots (Optional)  
-
-You can include UI screenshots here to showcase your project.
-
----
-
-## 🤝 Contributing  
-
-If you'd like to contribute:  
-
-1. Fork the repository.  
-2. Create a new branch (`git checkout -b feature-branch`).  
-3. Make your changes and commit (`git commit -m "Added feature"`).  
-4. Push to the branch (`git push origin feature-branch`).  
-5. Open a **Pull Request**.  
-
----
-
-## 📝 License  
-
-This project is **MIT Licensed**. Feel free to use and modify it.  
+- `POST /api/checkout/payment` → Process payment
