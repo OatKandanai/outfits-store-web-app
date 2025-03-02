@@ -16,4 +16,10 @@ This is a full-stack e-commerce web application where users can browse and purch
   cd backend
   npm install
   cp .env.example .env   # Fill in required values
-
+  ```
+2️⃣ Frontend Setup
+  ```bash
+  cd ../frontend
+  npm install
+  cp .env.example .env   # Fill in required values
+  ```
