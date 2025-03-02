@@ -12,24 +12,37 @@ This is a full-stack e-commerce web application where users can browse and purch
 - ✅ Responsive design
 
 ## 🛠️ Tech Stack (MERN)
-- Frontend: React, Redux, Material-UI icons
+- Frontend: React, Redux
 - Backend: Node.js, Express, MongoDB
-- State Management: Redux
-- Authentication: JWT
-- Payment Gateway: Stripe
 
-### 1️⃣ Backend Setup
+## Frontend Dependencies
+### 🛠 Core React
+- react, react-dom: Core React libraries
+### 🖼 UI & Styling
+- styled-components: Another styling solution that allows writing CSS-in-JS
+- @mui/icons-material: Material-UI for icons
+### 🔀 State Management
+- @reduxjs/toolkit: Modern Redux approach for managing global state
+- react-redux: Connects React components to the Redux store
+- redux-persist: Persists Redux state (e.g., saving auth and cart items even after refresh)
+### 🌐 API & Routing
+- axios: For making HTTP requests to the backend
+- react-router-dom: Manages navigation between different pages
+### 💳 Payment Integration
+- @stripe/react-stripe-js, @stripe/stripe-js: Libraries for integrating Stripe payments
+
+## 1️⃣ Backend Setup
   ```bash
   cd backend
   npm install
   ```
-### 2️⃣ Frontend Setup
+## 2️⃣ Frontend Setup
   ```bash
   cd frontend
   npm install
   ```
 
-### ⚙️ Environment Variables
+## ⚙️ Environment Variables
 Create a .env file in both backend and frontend by copying .env.example and filling in the required values.
 - **Backend (.env)**
   ```bash
@@ -45,5 +58,5 @@ Create a .env file in both backend and frontend by copying .env.example and fill
   REACT_APP_STRIPE_KEY=your_stripe_publishable_key
   ```
 
-### 🗄️ Importing Sample Products
+## 🗄️ Importing Sample Products
 - If you want to pre-fill the products database with sample products, you can import outfitsstore.products.json into MongoDB, Alternatively, you can add products via the admin dashboard.
