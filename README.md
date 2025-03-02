@@ -76,11 +76,20 @@ Create a .env file in both backend and frontend by copying .env.example and fill
 
 ## 🔧 Setting Up MongoDB Atlas & Connecting to Backend
 This project requires a MongoDB Atlas database. Follow the steps below to create your cluster and get the connection string.
-- 1: Go to [MongoDB Atlas](https://www.mongodb.com/atlas) and sign up or log in
-- 2: Create a Cluster
-- 3: Create a Database User
-- 4: Get Connection String
-- 5: Update the .env File , update the MONGO_URL field
+- 1. Go to [MongoDB Atlas](https://www.mongodb.com/atlas) and sign up or log in
+- 2. Create a Cluster
+- 3. Create a Database User
+- 4. Get Connection String
+- 5. Update the .env File , update the MONGO_URL field
 
 ## 🗄️ Importing Sample Products
 - If you want to pre-fill the products database with sample products, you can import outfitsstore.products.json into MongoDB, Alternatively, you can add products via the admin dashboard.
+
+## 💳 Setting Up Stripe Payment Integration
+This project uses Stripe for payment processing. Follow these steps to set up your Stripe account and add the required keys.
+- 1. Go to [Stripe](https://stripe.com/) and sign up or log in.
+- 2. Navigate to Developers > API keys
+- 3. You’ll see two types of keys:
+  - Publishable Key (pk_test_...) → Used in the frontend .env
+  - Secret Key (sk_test_...) → Used in the backend .env
+- 4. update your environment files
