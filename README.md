@@ -39,4 +39,4 @@ Create a .env file in both backend and frontend by copying .env.example and fill
   ```
 
 ### 🗄️ Importing Sample Products
-- If you want to pre-fill the database with sample products, you can import outfitsstore.products.json into MongoDB, Alternatively, you can add products via the admin dashboard.
+- If you want to pre-fill the products database with sample products, you can import outfitsstore.products.json into MongoDB, Alternatively, you can add products via the admin dashboard.
