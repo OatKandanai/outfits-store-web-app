@@ -29,8 +29,13 @@ Create a .env file in both backend and frontend by copying .env.example and fill
   SERVER_PORT=5000
   MONGO_URL=your_mongo_url
   JWT_SECRETKEY=your_secret_key
-  STRIPE_SECRET_KEY=your_stripe_key
+  STRIPE_SECRET_KEY=your_stripe_secret_key
   CLIENT_URL=http://localhost:3000
+  ```
+- **Frontend (.env)**
+  ```bash
+  REACT_APP_API_URL=http://localhost:5000
+  REACT_APP_STRIPE_KEY=your_stripe_publishable_key
   ```
 
 ### 🗄️ Importing Sample Products
