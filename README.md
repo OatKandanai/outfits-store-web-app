@@ -9,3 +9,4 @@ This is a full-stack e-commerce web application where users can browse and purch
 ✅ Payment integration (Stripe)
 ✅ Admin dashboard to manage products and orders
 ✅ Responsive design
+
