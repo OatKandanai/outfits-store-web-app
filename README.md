@@ -83,7 +83,7 @@ This project requires a MongoDB Atlas database. Follow the steps below to create
 - 5 Update the .env File , update the MONGO_URL field
 
 ## 🗄️ Importing Sample Products
-- If you want to pre-fill the products database with sample products, you can import outfitsstore.products.json into MongoDB, Alternatively, you can add products via the admin dashboard.
+- If you want to pre-fill the products database with sample products, go to "products data" folder, you can import outfitsstore.products.json into MongoDB, Alternatively, you can add products via the admin dashboard.
 
 ## 💳 Setting Up Stripe Payment Integration
 This project uses Stripe for payment processing. Follow these steps to set up your Stripe account and add the required keys.
