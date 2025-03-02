@@ -15,13 +15,23 @@ This is a full-stack e-commerce web application where users can browse and purch
   ```bash
   cd backend
   npm install
-  cp .env.example .env   # Fill in required values
   ```
 2️⃣ Frontend Setup
   ```bash
-  cd ../frontend
+  cd frontend
   npm install
-  cp .env.example .env   # Fill in required values
   ```
+
+⚙️ Environment Variables
+Create a .env file in both backend and frontend by copying .env.example and filling in the required values.
+Backend (.env)
+  ```bash
+  SERVER_PORT=5000
+  MONGO_URL=your_mongo_url
+  JWT_SECRETKEY=your_secret_key
+  STRIPE_SECRET_KEY=your_stripe_key
+  CLIENT_URL=http://localhost:3000
+  ```
+
 🗄️ Importing Sample Products
 - If you want to pre-fill the database with sample products, you can import outfitsstore.products.json into MongoDB, Alternatively, you can add products via the admin dashboard.
