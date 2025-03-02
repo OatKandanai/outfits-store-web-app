@@ -60,7 +60,7 @@ This is a full-stack e-commerce web application where users can browse and purch
 
 ## 🔧 Setting Up MongoDB Atlas & Connecting to Backend
 - This project requires a MongoDB Atlas database. Follow the steps below to create your cluster and get the connection string.
-## Step 1: Sign Up & Create a Cluster
+### Step 1: Sign Up & Create a Cluster
 1. Go to MongoDB Atlas and sign up or log in
 2. Click "Create a New Cluster" (Free tier is available)
 3. Choose "Shared Cluster" (Free Tier - M0) and select your Cloud Provider & Region
