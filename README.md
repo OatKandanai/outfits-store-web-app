@@ -93,3 +93,14 @@ This project uses Stripe for payment processing. Follow these steps to set up yo
   - Publishable Key (pk_test_...) → Used in the frontend .env
   - Secret Key (sk_test_...) → Used in the backend .env
 - 4 update your environment files
+
+## To Run The Project
+  ```bash
+  # Start backend
+  cd backend
+  npm start
+
+  # Start frontend
+  cd frontend
+  npm start
+  ```
