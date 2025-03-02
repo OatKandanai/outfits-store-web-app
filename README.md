@@ -23,3 +23,5 @@ This is a full-stack e-commerce web application where users can browse and purch
   npm install
   cp .env.example .env   # Fill in required values
   ```
+🗄️ Importing Sample Products
+- If you want to pre-fill the database with sample products, you can import outfitsstore.products.json into MongoDB
