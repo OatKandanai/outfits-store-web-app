@@ -1,6 +1,7 @@
 # 🛍️ Outfits Store Project  
 
-A **full-stack e-commerce web application** where users can browse, add products to their cart, place orders, and make payments using **Stripe**. The project consists of a **React frontend** and a **Node.js/Express backend with MongoDB**, featuring authentication, and an admin dashboard.  
+A **full-stack e-commerce web application** where users can browse, add products to their cart, place orders, and make payments using **Stripe**. The project consists of a **React frontend** and a **Node.js/Express backend with MongoDB**, featuring authentication, and an admin dashboard.
+
 ---
 
 ## 🚀 Features  
