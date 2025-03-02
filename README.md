@@ -11,6 +11,13 @@ This is a full-stack e-commerce web application where users can browse and purch
 - ✅ Admin dashboard to manage users, carts, orders and products
 - ✅ Responsive design
 
+## 🛠️ Tech Stack (MERN)
+- Frontend: React, Redux, Material-UI icons
+- Backend: Node.js, Express, MongoDB
+- State Management: Redux
+- Authentication: JWT
+- Payment Gateway: Stripe
+
 ### 1️⃣ Backend Setup
   ```bash
   cd backend
