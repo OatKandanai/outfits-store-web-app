@@ -1,0 +1,761 @@
+[{
+  "_id": {
+    "$oid": "67a6cf54819a2980ca8833d5"
+  },
+  "title": "BLACKPINK - The Album Crown T-Shirt",
+  "desc": "Official licensed short sleeved Blackpink t-shirt",
+  "img": "https://i.imgur.com/2O8rnQw.png",
+  "category": [
+    "tops"
+  ],
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "price": 35.99,
+  "createdAt": {
+    "$date": "2025-02-08T03:28:20.133Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-08T03:28:20.133Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a6db52819a2980ca8833f6"
+  },
+  "title": "NewJeans Bunny T-Shirt",
+  "desc": "NewJeans Bunny T-shirt Crewneck Short Sleeve Tee",
+  "img": "https://i.imgur.com/vfV0PWz.png",
+  "category": [
+    "tops"
+  ],
+  "size": [
+    "S",
+    "M",
+    "L"
+  ],
+  "price": 29.99,
+  "createdAt": {
+    "$date": "2025-02-08T04:19:30.270Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-08T04:19:30.270Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a6dbe1819a2980ca88340d"
+  },
+  "title": "BTS WHITE T-Shirt",
+  "desc": "BTS Logo T-Shirt",
+  "img": "https://i.imgur.com/n7qxe9u.png",
+  "category": [
+    "tops"
+  ],
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL"
+  ],
+  "price": 39.99,
+  "createdAt": {
+    "$date": "2025-02-08T04:21:53.880Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-08T04:21:53.880Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b0227095bf8cfb960bb46c"
+  },
+  "title": "BTS Dynamite Member Colorblock Hoodie",
+  "desc": "This sweatshirt hoodie contain 20% polyester and 80% cotton for ultimate quality,lightweight and comfort,soft and elastic make you feel more comfortable to wear",
+  "img": "https://i.imgur.com/FGA7DsY.png",
+  "category": [
+    "tops"
+  ],
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "price": 49.99,
+  "createdAt": {
+    "$date": "2025-02-15T05:13:20.022Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-15T05:13:20.022Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b030ac95bf8cfb960bb4ac"
+  },
+  "title": "NewJeans Minji Black T-Shirt",
+  "desc": "NewJeans Powerpuff Girls design embedded at front for a long lasting print. Hand-washed staining for a vintage look & feel",
+  "img": "https://i.imgur.com/10gLdXH.png",
+  "category": [
+    "tops"
+  ],
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "price": 29.99,
+  "createdAt": {
+    "$date": "2025-02-15T06:14:04.659Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-15T06:14:04.659Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b0348a95bf8cfb960bb4e9"
+  },
+  "title": "BLACKPINK Shut Down Mini Backpack",
+  "desc": "Mini Backpack is made of vegan leather (polyurethane). Backpack has adjustable shoulder straps, side pockets, and silver-colored metal hardware. Additional features include applique and printed details. Take note of the coordinating inside lining.",
+  "img": "https://i.imgur.com/Sd73n4c.png",
+  "category": [
+    "accessories"
+  ],
+  "size": [
+    "MINI"
+  ],
+  "price": 69.99,
+  "createdAt": {
+    "$date": "2025-02-15T06:30:34.307Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-15T06:30:34.307Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b0379995bf8cfb960bb58f"
+  },
+  "title": "BLACKPINK LOVESICK GIRLS SWEATPANTS II",
+  "desc": "Black unisex sweatpants featuring Lovesick Girls graphics",
+  "img": "https://i.imgur.com/UTGsPTn.png",
+  "category": [
+    "bottoms"
+  ],
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "price": 39.99,
+  "createdAt": {
+    "$date": "2025-02-15T06:43:37.153Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-15T06:43:37.153Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b1f48c927a0cc7eb86d77d"
+  },
+  "title": "Nike Dunk Low Retro",
+  "desc": "Recognizing the Dunk's roots as the top-ranking college team sneaker",
+  "img": "https://i.imgur.com/VsxqDTU.png",
+  "category": [
+    "footwear"
+  ],
+  "size": [
+    "8 UK",
+    "8.5 UK",
+    "9 UK",
+    "9.5 UK",
+    "10 UK",
+    "10.5 UK",
+    "11 UK",
+    "11.5 UK",
+    "12 UK"
+  ],
+  "price": 115,
+  "createdAt": {
+    "$date": "2025-02-16T14:22:04.758Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-16T14:22:04.758Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b21972927a0cc7eb86d94d"
+  },
+  "title": "OIOI White T-Shirt",
+  "desc": "Rosé x OIOI",
+  "img": "https://i.imgur.com/mOyZ9Q8.png",
+  "category": [
+    "tops"
+  ],
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "price": 49.99,
+  "createdAt": {
+    "$date": "2025-02-16T16:59:30.322Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-16T16:59:30.322Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67b28c914d393754a2e46538"
+  },
+  "title": "NewJeans Danielle Vintage Band T-Shirt",
+  "desc": "100% Soft Cotton for ultimate comfort",
+  "img": "https://i.imgur.com/QBpqtiC.png",
+  "category": [
+    "tops"
+  ],
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "price": 29.99,
+  "createdAt": {
+    "$date": "2025-02-17T01:10:42.003Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-17T01:10:42.003Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bee02c4e43ecb7b9ded7dc"
+  },
+  "title": "NewJeans Haerin Vintage Band T-shirt",
+  "desc": "100% Soft Cotton for ultimate comfort",
+  "img": "https://i.imgur.com/i0tX5ak.png",
+  "category": [
+    "tops"
+  ],
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "price": 29.99,
+  "createdAt": {
+    "$date": "2025-02-26T09:34:36.889Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T09:34:36.889Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67bf1c440259b254ac42c0bd"
+  },
+  "title": "Nike Air Force 1 '07 LV8",
+  "desc": "Step out like an all star in the comfortable, durable and timeless AF1. The classic ‘80s construction pairs with Bay Area inspired design details for style that tracks whether you’re on court or on the go.",
+  "img": "https://i.imgur.com/9j6wXSz.png",
+  "category": [
+    "footwear"
+  ],
+  "size": [
+    "8 UK",
+    "8.5 UK",
+    "9 UK",
+    "9.5 UK",
+    "10 UK",
+    "10.5 UK",
+    "11 UK",
+    "11.5 UK",
+    "12 UK"
+  ],
+  "price": 125,
+  "createdAt": {
+    "$date": "2025-02-26T13:51:00.665Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T13:51:00.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c00588f34055658ac20fbc"
+  },
+  "title": "THE NORTH FACE W SUN CHASE WIND JACKET - PINK MOSS",
+  "desc": "Relaxed fit color blocking wind jacket in UPF 50 + nylon ripstop / Packable pocket installed   for easy storage / Shaped underarm gusset caters to wide range movement",
+  "img": "https://i.imgur.com/CNWLZ1z.png",
+  "category": [
+    "tops"
+  ],
+  "size": [
+    "S",
+    "M",
+    "L"
+  ],
+  "price": 120,
+  "createdAt": {
+    "$date": "2025-02-27T06:26:16.617Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T06:26:16.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c0115477c436a2a85d80eb"
+  },
+  "title": "Calvin Klein G Jean Boxy Shirt Jacket Denim L Cotton White",
+  "desc": "-",
+  "img": "https://i.imgur.com/wCiTB7h.png",
+  "category": [
+    "tops"
+  ],
+  "size": [
+    "L"
+  ],
+  "price": 250,
+  "createdAt": {
+    "$date": "2025-02-27T07:16:36.910Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T07:16:36.910Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c03c14c66bd051d00e3e0c"
+  },
+  "title": "Calvin Klein Straight-Leg White Jeans",
+  "desc": "Authentic jeans",
+  "img": "https://i.imgur.com/Hq6o2YY.png",
+  "category": [
+    "bottoms"
+  ],
+  "size": [
+    "L"
+  ],
+  "price": 130,
+  "createdAt": {
+    "$date": "2025-02-27T10:19:00.976Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T10:19:00.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c07fbf2941f575a0c31854"
+  },
+  "title": "New Balance WNJ3393 Purple Jackets & Vests",
+  "desc": "The NB Women's Coat is designed to keep you warm with its lightweight, wind-resistant fabric structure. Its broad and modern silhouette offers a normal fit, and the fiber filling provides extra warmth and protection. The product features a stand-up collar and a crop cut. Thanks to its full zipper closure and zippered sleeves, this item can be used as both a coat and a vest. With long sleeves, it offers additional warmth and protection, completed with hem stoppers. Wearing it, you'll enhance your style with the NB logo print on the left chest. This women's coat is not only stylish but also keeps you warm.",
+  "img": "https://i.imgur.com/3k6YUhX.png",
+  "category": [
+    "tops"
+  ],
+  "size": [
+    "S",
+    "M",
+    "L"
+  ],
+  "price": 60,
+  "createdAt": {
+    "$date": "2025-02-27T15:07:43.738Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T15:07:43.738Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c0826d2941f575a0c31902"
+  },
+  "title": "Fila Sneaker Orbit Low Men white",
+  "desc": "The FILA Orbit Low for men is a stylish retro sneaker in white.",
+  "img": "https://i.imgur.com/92dU1Gi.png",
+  "category": [
+    "footwear"
+  ],
+  "size": [
+    "8 UK",
+    "8.5 UK",
+    "9 UK",
+    "9.5 UK",
+    "10 UK",
+    "10.5 UK",
+    "11 UK",
+    "11.5 UK",
+    "12 UK"
+  ],
+  "price": 49.99,
+  "createdAt": {
+    "$date": "2025-02-27T15:19:09.828Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T15:19:09.828Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c084c92cfc29935e2600c1"
+  },
+  "title": "FILA BTS VOYAGER COLLECTION HIP SACK BLACK - NEW W TAG",
+  "desc": "Fila x BTS Voyager Collection Hip Sack Black FS3BCC5B02X_BLK",
+  "img": "https://i.imgur.com/gAOhROL.png",
+  "category": [
+    "accessories"
+  ],
+  "size": [
+    "-"
+  ],
+  "price": 79,
+  "createdAt": {
+    "$date": "2025-02-27T15:29:13.610Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T15:29:13.610Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c086412cfc29935e2600fb"
+  },
+  "title": "FILA X BTS VOYAGER COLLECTION DAILY BACKPACK SALMON PINK- NEW W TAG",
+  "desc": "Fila x BTS Voyager Collection Daily Backpack Salmon Pink FS3BPC5B01X_SPK",
+  "img": "https://i.imgur.com/G9njHgt.png",
+  "category": [
+    "accessories"
+  ],
+  "size": [
+    "-"
+  ],
+  "price": 139,
+  "createdAt": {
+    "$date": "2025-02-27T15:35:29.258Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-27T15:35:29.258Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c2813ff2abcc7cb1e9db83"
+  },
+  "title": "LOVESICK GIRLS SWEATPANTS I",
+  "desc": "WHITE UNISEX SWEATPANTS FEATURING LOVESICK GIRLS GRAPHICS.",
+  "img": "https://i.imgur.com/yaND65Q.png",
+  "category": [
+    "bottoms"
+  ],
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "price": 65,
+  "createdAt": {
+    "$date": "2025-03-01T03:38:39.452Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T03:38:39.452Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c281bdf2abcc7cb1e9db9a"
+  },
+  "title": "BORN PINK SWEATS",
+  "desc": "Screenprint front graphic",
+  "img": "https://i.imgur.com/oQCNdf6.png",
+  "category": [
+    "bottoms"
+  ],
+  "size": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "price": 70,
+  "createdAt": {
+    "$date": "2025-03-01T03:40:45.533Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T03:40:45.533Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c2823ef2abcc7cb1e9dbbf"
+  },
+  "title": "Funko BLACKPINK Shut Down Passport Bag",
+  "desc": "The Funko Pop! BLACKPINK Shut Down Passport Bag is made of nylon canvas. Bag has adjustable shoulder straps, sturdy metal hardware, and features printed details.",
+  "img": "https://i.imgur.com/oVfxtmE.png",
+  "category": [
+    "accessories"
+  ],
+  "size": [
+    "-"
+  ],
+  "price": 15,
+  "createdAt": {
+    "$date": "2025-03-01T03:42:54.575Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T03:42:54.575Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c2845df2abcc7cb1e9dc18"
+  },
+  "title": "BLACKPINK Tote",
+  "desc": "Black canvas tote with printed BLACKPINK logo on one side.",
+  "img": "https://i.imgur.com/uPrc5PW.png",
+  "category": [
+    "accessories"
+  ],
+  "size": [
+    "-"
+  ],
+  "price": 26.5,
+  "createdAt": {
+    "$date": "2025-03-01T03:51:57.378Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T03:51:57.378Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c28548f2abcc7cb1e9dc33"
+  },
+  "title": "BLACKPINK FACE MASK PINK LOGO",
+  "desc": "Screenprinted graphic.",
+  "img": "https://i.imgur.com/hvGtUes.png",
+  "category": [
+    "accessories"
+  ],
+  "size": [
+    "-"
+  ],
+  "price": 9.99,
+  "createdAt": {
+    "$date": "2025-03-01T03:55:52.044Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T03:55:52.044Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c285b5f2abcc7cb1e9dc72"
+  },
+  "title": "Encore Pink Bucket Hat",
+  "desc": "Screenprinted Graphic",
+  "img": "https://i.imgur.com/A6sb0nf.png",
+  "category": [
+    "accessories"
+  ],
+  "size": [
+    "-"
+  ],
+  "price": 40,
+  "createdAt": {
+    "$date": "2025-03-01T03:57:41.146Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T03:57:41.146Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c288e0f2abcc7cb1e9dcad"
+  },
+  "title": "Nike Vomero 18",
+  "desc": "Maximum cushioning in the Vomero provides a comfortable ride for everyday runs. Our softest, most cushioned ride has lightweight ZoomX foam stacked on top of responsive ReactX foam in the midsole. Plus, a redesigned traction pattern offers a smooth heel-to-toe transition.",
+  "img": "https://i.imgur.com/QRFxXOm.png",
+  "category": [
+    "footwear"
+  ],
+  "size": [
+    "8 UK",
+    "8.5 UK",
+    "9 UK",
+    "9.5 UK",
+    "10 UK",
+    "10.5 UK",
+    "11 UK",
+    "11.5 UK",
+    "12 UK"
+  ],
+  "price": 150,
+  "createdAt": {
+    "$date": "2025-03-01T04:11:12.126Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T04:11:12.126Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c289eaf2abcc7cb1e9dcd4"
+  },
+  "title": "Nike Zoom Rival Sprint",
+  "desc": "Race out of the starting blocks and finish with a flurry in a spike designed with speed in mind. Its robust, reinforced yet lightweight upper provides the key containment necessary to attack the turns and straightaways around the oval. Feel the power and drive of the forefoot plate as you get up on your toes and hightail it toward the tape.",
+  "img": "https://i.imgur.com/JqfBgS2.png",
+  "category": [
+    "footwear"
+  ],
+  "size": [
+    "8 UK",
+    "8.5 UK",
+    "9 UK",
+    "9.5 UK",
+    "10 UK",
+    "10.5 UK",
+    "11 UK",
+    "11.5 UK",
+    "12 UK"
+  ],
+  "price": 75,
+  "createdAt": {
+    "$date": "2025-03-01T04:15:38.760Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T04:15:38.760Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c28a7cf2abcc7cb1e9dceb"
+  },
+  "title": "Nike Structure 25",
+  "desc": "Supportive cushioning provides steadiness for everyday runs. Experience a stable platform without sacrificing performance with a combination of Cushlon 3.0 foam and a Zoom Air unit. Plus, a higher stack height makes it more comfortable, stable, and supportive than ever.",
+  "img": "https://i.imgur.com/XT0YZCC.png",
+  "category": [
+    "footwear"
+  ],
+  "size": [
+    "8 UK",
+    "8.5 UK",
+    "9 UK",
+    "9.5 UK",
+    "10 UK",
+    "10.5 UK",
+    "11 UK",
+    "11.5 UK",
+    "12 UK"
+  ],
+  "price": 140,
+  "createdAt": {
+    "$date": "2025-03-01T04:18:04.758Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T04:18:04.758Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c28b35f2abcc7cb1e9dd0a"
+  },
+  "title": "Nike Invincible 3 By You",
+  "desc": "With maximum cushioning to support every mile, the Invincible 3 is our highest level of comfort underfoot. Its plush and bouncy ZoomX foam helps you stay stable and fresh. In other words—it's going to feel good all day, no matter what you're doing. And when you pair all this cushioning with easy-to-style colors, you get a shoe you never want to stop wearing. This version has unlimited customizing potential. Personalize everything from the colors, graphics, outsole material and more. Take it all the way.",
+  "img": "https://i.imgur.com/3tXc1FR.png",
+  "category": [
+    "footwear"
+  ],
+  "size": [
+    "8 UK",
+    "8.5 UK",
+    "9 UK",
+    "9.5 UK",
+    "10 UK",
+    "10.5 UK",
+    "11 UK",
+    "11.5 UK",
+    "12 UK"
+  ],
+  "price": 210,
+  "createdAt": {
+    "$date": "2025-03-01T04:21:09.347Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T04:21:09.347Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67c2b81e1525d9f01aefbc43"
+  },
+  "title": "TASTE THAT BUCKET HAT",
+  "desc": "Embroidered BLACKPINK bucket hat.",
+  "img": "https://i.imgur.com/68CGPr8.png",
+  "category": [
+    "accessories"
+  ],
+  "size": [
+    "-"
+  ],
+  "price": 35,
+  "createdAt": {
+    "$date": "2025-03-01T07:32:46.706Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-01T07:32:46.706Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,28 @@
+# Node modules
+/backend/node_modules/
+/frontend/node_modules/
+
+# Logs
+/backend/logs/
+/frontend/logs/
+
+# Build output
+/frontend/build/
+
+# Environment files
+/backend/.env
+/frontend/.env
+
+# Dependency locks
+/backend/package-lock.json
+/frontend/package-lock.json
+
+# IDE files
+*.vscode/
+*.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
