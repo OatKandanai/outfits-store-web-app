@@ -8,10 +8,10 @@ A **full-stack e-commerce web application** where users can browse, add products
 ✅ User authentication (Register/Login)  
 ✅ Add, update, and remove products from the cart  
 ✅ Secure checkout process  
-✅ View and manage past orders  
+✅ View past orders  
 ✅ Payment processing with Stripe  
 ✅ Admin dashboard for managing users, carts, orders, and products  
-✅ Responsive design for all devices  
+✅ Responsive design  
 
 ---
 
