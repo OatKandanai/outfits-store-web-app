@@ -16,31 +16,31 @@ This is a full-stack e-commerce web application where users can browse and purch
 - Backend: Node.js, Express, MongoDB
 
 ## Frontend Dependencies
-### 🛠 Core React
+#### 🛠 Core React
 - react, react-dom: Core React libraries
-### 🖼 UI & Styling
+#### 🖼 UI & Styling
 - styled-components: Allows writing CSS-in-JS
 - @mui/icons-material: Material-UI for icons
-### 🔀 State Management
+#### 🔀 State Management
 - @reduxjs/toolkit: For managing global state
 - react-redux: Connects React components to the Redux store
 - redux-persist: Persists Redux state (e.g., saving auth and cart items even after refresh)
-### 🌐 API & Routing
+#### 🌐 API & Routing
 - axios: For making HTTP requests to the backend
 - react-router-dom: Manages navigation between different pages
-### 💳 Payment Integration
+#### 💳 Payment Integration
 - @stripe/react-stripe-js, @stripe/stripe-js: Libraries for integrating Stripe payments
 ## Backend Dependencies
-### 🛠 Server & Framework
+#### 🛠 Server & Framework
 - express: web framework for building APIs
 - cors: Handles cross-origin requests, allowing frontend to communicate with backend
 - dotenv: Loads environment variables from a .env file
-### 🔐 Authentication & Security
+#### 🔐 Authentication & Security
 - jsonwebtoken (JWT): Used for user authentication
 - bcrypt: Hashes passwords before storing them securely
-### 🗄 Database (MongoDB)
+#### 🗄 Database (MongoDB)
 - mongoose: ODM (Object Data Modeling) library for MongoDB, to work with database schemas
-### 💳 Payment Integration
+#### 💳 Payment Integration
 - stripe: Used to process payments via Stripe API
 
 ## Backend Setup
@@ -59,7 +59,7 @@ This is a full-stack e-commerce web application where users can browse and purch
   ```
 
 ## 🔧 Setting Up MongoDB Atlas & Connecting to Backend
-  - This project requires a MongoDB Atlas database. Follow the steps below to create your cluster and get the connection string.
+- This project requires a MongoDB Atlas database. Follow the steps below to create your cluster and get the connection string.
   #### Step 1: Go to MongoDB Atlas and sign up or log in & Create a Cluster
   #### Step 2: Create a Database User
   #### Step 3: Get Connection String
