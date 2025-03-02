@@ -10,3 +10,10 @@ This is a full-stack e-commerce web application where users can browse and purch
 - ✅ Payment integration (Stripe)
 - ✅ Admin dashboard to manage users, carts, orders and products
 - ✅ Responsive design
+
+1️⃣ Backend Setup
+  ```bash
+  cd backend
+  npm install
+  cp .env.example .env   # Fill in required values
+
