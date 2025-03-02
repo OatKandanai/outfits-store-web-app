@@ -178,3 +178,23 @@ npm start
 
 ### **💳 Payment (Stripe)**  
 - `POST /api/checkout/payment` → Process payment
+
+---
+
+## 🔑 Setting Up Admin Access  
+
+To access the **Admin Dashboard**, you need to set a user as an **admin** in the database.
+
+1️⃣ **Register a new user** (or use an existing one).  
+2️⃣ Open **MongoDB Compass** or **MongoDB Atlas** and go to the **User collection**.  
+3️⃣ Find the user document and manually update their **isAdmin** field:  
+```json
+{
+  "_id": "user_id_here",
+  "username": "admin_user",
+  "email": "admin@example.com",
+  "password": "hashed_password",
+  "isAdmin": true
+}
+```
+4️⃣ Now, log in with that user, and you’ll have access to the **Admin Dashboard**.
