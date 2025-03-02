@@ -1,106 +1,204 @@
-# 🛍️ Outfits Store Project
+# 🛍️ Outfits Store Project  
 
-This is a full-stack e-commerce web application where users can browse and purchase outfits. The project consists of a frontend (React) and a backend (Node.js, Express, MongoDB) with authentication, order management, and payment integration via Stripe.
+A **full-stack e-commerce web application** where users can browse, add products to their cart, place orders, and make payments using **Stripe**. The project consists of a **React frontend** and a **Node.js/Express backend with MongoDB**, featuring authentication, order management, and an admin dashboard.  
 
-## 🚀 Features
-- ✅ User authentication (Register/Login)
-- ✅ Adding product to cart, adjusting quantities and removing product from cart
-- ✅ Checkout
-- ✅ View your order
-- ✅ Payment integration (Stripe)
-- ✅ Admin dashboard to manage users, carts, orders and products
-- ✅ Responsive design
+---
 
-## 🛠️ Tech Stack (MERN)
-- Frontend: React, Redux
-- Backend: Node.js, Express, MongoDB
+## 🚀 Features  
+✅ User authentication (Register/Login)  
+✅ Add, update, and remove products from the cart  
+✅ Secure checkout process  
+✅ View and manage past orders  
+✅ Payment processing with Stripe  
+✅ Admin dashboard for managing users, carts, orders, and products  
+✅ Responsive design for all devices  
 
-## Frontend Dependencies
-#### 🛠 Core React
-- react, react-dom: Core React libraries
-#### 🖼 UI & Styling
-- styled-components: Allows writing CSS-in-JS
-- @mui/icons-material: Material-UI for icons
-#### 🔀 State Management
-- @reduxjs/toolkit: For managing global state
-- react-redux: Connects React components to the Redux store
-- redux-persist: Persists Redux state (e.g., saving auth and cart items even after refresh)
-#### 🌐 API & Routing
-- axios: For making HTTP requests to the backend
-- react-router-dom: Manages navigation between different pages
-#### 💳 Payment Integration
-- @stripe/react-stripe-js, @stripe/stripe-js: Libraries for integrating Stripe payments
-## Backend Dependencies
-#### 🛠 Server & Framework
-- express: web framework for building APIs
-- cors: Handles cross-origin requests, allowing frontend to communicate with backend
-- dotenv: Loads environment variables from a .env file
-#### 🔐 Authentication & Security
-- jsonwebtoken (JWT): Used for user authentication
-- bcrypt: Hashes passwords before storing them securely
-#### 🗄 Database (MongoDB)
-- mongoose: ODM (Object Data Modeling) library for MongoDB, to work with database schemas
-#### 💳 Payment Integration
-- stripe: Used to process payments via Stripe API
-# Installation
-## Backend Setup
-  ```bash
-  cd backend
-  npm install
-  ```
-## Frontend Setup
-  ```bash
-  cd frontend
-  npm install
-  ```
-## Nodemon Setup
-  ```bash
-  npm install -g nodemon
-  ```
+---
 
-## ⚙️ Environment Variables
-Create a .env file in both backend and frontend by copying .env.example and filling in the required values.
-- **Backend (.env)**
-  ```bash
-  SERVER_PORT=5000
-  MONGO_URL=your_mongo_url
-  JWT_SECRETKEY=your_secret_key
-  STRIPE_SECRET_KEY=your_stripe_secret_key
-  CLIENT_URL=http://localhost:3000
-  ```
-- **Frontend (.env)**
-  ```bash
-  REACT_APP_API_URL=http://localhost:5000
-  REACT_APP_STRIPE_KEY=your_stripe_publishable_key
-  ```
+## 🛠️ Tech Stack (MERN)  
 
-## 🔧 Setting Up MongoDB Atlas & Connecting to Backend
-This project requires a MongoDB Atlas database. Follow the steps below to create your cluster and get the connection string.
-- 1 Go to [MongoDB Atlas](https://www.mongodb.com/atlas) and sign up or log in
-- 2 Create a Cluster
-- 3 Create a Database User
-- 4 Get Connection String
-- 5 Update the .env File , update the MONGO_URL field
+| **Technology** | **Usage** |
+|--------------|-------------|
+| **Frontend** | React, Redux, Styled Components, Material UI Icons |
+| **Backend** | Node.js, Express, MongoDB |
+| **Database** | MongoDB Atlas |
+| **Authentication** | JWT (JSON Web Token) |
+| **State Management** | Redux Toolkit, Redux Persist |
+| **Payment Integration** | Stripe API |
 
-## 🗄️ Importing Sample Products
-- If you want to pre-fill the products database with sample products, go to "products data" folder, you can import outfitsstore.products.json into MongoDB, Alternatively, you can add products via the admin dashboard.
+---
 
-## 💳 Setting Up Stripe Payment Integration
-This project uses Stripe for payment processing. Follow these steps to set up your Stripe account and add the required keys.
-- 1 Go to [Stripe](https://stripe.com/) and sign up or log in.
-- 2 Navigate to Developers > API keys
-- 3 You’ll see two types of keys:
-  - Publishable Key (pk_test_...) → Used in the frontend .env
-  - Secret Key (sk_test_...) → Used in the backend .env
-- 4 update your environment files
+## 📦 Dependencies  
 
-## To Run The Project
-  ```bash
-  # Start backend
-  cd backend
-  npm start
+### **Frontend**  
+#### 🛠 Core React  
+- **react, react-dom** → Core React libraries  
+#### 🎨 UI & Styling  
+- **styled-components** → Allows writing CSS-in-JS  
+- **@mui/icons-material** → Material-UI icons  
+#### 🔀 State Management  
+- **@reduxjs/toolkit** → Redux state management  
+- **react-redux** → Connects Redux with React  
+- **redux-persist** → Saves state across page reloads  
+#### 🌐 API & Routing  
+- **axios** → For making HTTP requests  
+- **react-router-dom** → Handles navigation  
+#### 💳 Payment Integration  
+- **@stripe/react-stripe-js, @stripe/stripe-js** → Stripe payment libraries  
 
-  # Start frontend
-  cd frontend
-  npm start
-  ```
+### **Backend**  
+#### 🛠 Server & Framework  
+- **express** → Web framework for building APIs  
+- **cors** → Handles cross-origin requests  
+- **dotenv** → Loads environment variables from a `.env` file  
+#### 🔐 Authentication & Security  
+- **jsonwebtoken (JWT)** → User authentication  
+- **bcrypt** → Hashes passwords securely  
+#### 🗄 Database  
+- **mongoose** → MongoDB ORM (Object Relational Mapper)  
+#### 💳 Payment Integration  
+- **stripe** → Stripe API for payments  
+
+---
+
+## 🔧 Installation & Setup  
+
+### **1️⃣ Clone the Repository**  
+```sh
+git clone https://github.com/tickkie788/outfits-store-project.git
+cd outfits-store-project
+```
+
+### **2️⃣ Install Backend Dependencies**  
+```sh
+cd backend
+npm install
+```
+
+### **3️⃣ Install Frontend Dependencies**  
+```sh
+cd frontend
+npm install
+```
+
+### **4️⃣ Install Nodemon (Optional, for Development)**  
+```sh
+npm install -g nodemon
+```
+
+---
+
+## ⚙️ Environment Variables  
+
+Create a `.env` file in **both the frontend and backend** by copying `.env.example` and filling in the required values.
+
+### **Backend (`/backend/.env`)**  
+```env
+SERVER_PORT=5000
+MONGO_URL=your_mongodb_connection_string
+JWT_SECRETKEY=your_secret_key
+STRIPE_SECRET_KEY=your_stripe_secret_key
+CLIENT_URL=http://localhost:3000
+```
+
+### **Frontend (`/frontend/.env`)**  
+```env
+REACT_APP_API_URL=http://localhost:5000
+REACT_APP_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
+```
+
+---
+
+## 🗄️ Setting Up MongoDB Atlas  
+
+This project requires **MongoDB Atlas** as the database. Follow these steps:  
+
+1️⃣ **Sign up or log in** at [MongoDB Atlas](https://www.mongodb.com/atlas).  
+2️⃣ **Create a Cluster** in the **free tier**.  
+3️⃣ **Create a Database User** with **username & password**.  
+4️⃣ **Get the Connection String** from **Database > Connect > Drivers**.  
+5️⃣ **Update `.env` file** with the `MONGO_URL` value.
+
+---
+
+## 🗂️ Importing Sample Products (Optional)  
+
+If you want to populate the database with sample products:  
+
+- Locate `outfitsstore.products.json` in the **products data** folder.  
+- Import it into MongoDB manually **or** use the admin dashboard to add products.  
+
+---
+
+## 💳 Stripe Payment Setup  
+
+This project uses **Stripe** for payment processing. Follow these steps:  
+
+1️⃣ **Sign up or log in** at [Stripe](https://dashboard.stripe.com/register).  
+2️⃣ Go to **Developers > API Keys**.  
+3️⃣ Copy the following keys:  
+   - **Publishable Key (`pk_test_...`)** → Use in frontend `.env`.  
+   - **Secret Key (`sk_test_...`)** → Use in backend `.env`.  
+4️⃣ **Update your `.env` files** as shown above.  
+
+---
+
+## 🚀 Running the Project  
+
+```sh
+# Start backend
+cd backend
+npm start
+
+# Start frontend
+cd frontend
+npm start
+```
+
+---
+
+## 📜 API Endpoints  
+
+### **🔑 Authentication**  
+- `POST /api/auth/register` → Register a new user  
+- `POST /api/auth/login` → Login and get JWT  
+
+### **🛍️ Products**  
+- `GET /api/products` → Fetch all products  
+- `GET /api/products/:id` → Get a specific product  
+
+### **🛒 Cart**  
+- `POST /api/cart` → Add item to cart  
+- `DELETE /api/cart/:id` → Remove item from cart  
+
+### **📦 Orders**  
+- `POST /api/orders` → Create an order  
+- `GET /api/orders/:userId` → Get user orders  
+- `DELETE /api/orders/:orderId` → Cancel an order  
+
+### **💳 Payment (Stripe)**  
+- `POST /api/checkout/payment` → Process payment  
+
+---
+
+## 📸 Screenshots (Optional)  
+
+You can include UI screenshots here to showcase your project.
+
+---
+
+## 🤝 Contributing  
+
+If you'd like to contribute:  
+
+1. Fork the repository.  
+2. Create a new branch (`git checkout -b feature-branch`).  
+3. Make your changes and commit (`git commit -m "Added feature"`).  
+4. Push to the branch (`git push origin feature-branch`).  
+5. Open a **Pull Request**.  
+
+---
+
+## 📝 License  
+
+This project is **MIT Licensed**. Feel free to use and modify it.  
