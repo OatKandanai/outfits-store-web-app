@@ -58,13 +58,6 @@ This is a full-stack e-commerce web application where users can browse and purch
   npm install -g nodemon
   ```
 
-## 🔧 Setting Up MongoDB Atlas & Connecting to Backend
-- This project requires a MongoDB Atlas database. Follow the steps below to create your cluster and get the connection string.
-  #### Step 1: Go to [MongoDB Atlas](https://www.mongodb.com/atlas) and sign up or log in & Create a Cluster
-  #### Step 2: Create a Database User
-  #### Step 3: Get Connection String
-  #### Step 4: Update the .env File , update the MONGO_URL field
-
 ## ⚙️ Environment Variables
 Create a .env file in both backend and frontend by copying .env.example and filling in the required values.
 - **Backend (.env)**
@@ -80,6 +73,13 @@ Create a .env file in both backend and frontend by copying .env.example and fill
   REACT_APP_API_URL=http://localhost:5000
   REACT_APP_STRIPE_KEY=your_stripe_publishable_key
   ```
+
+## 🔧 Setting Up MongoDB Atlas & Connecting to Backend
+This project requires a MongoDB Atlas database. Follow the steps below to create your cluster and get the connection string.
+  #### 1: Go to [MongoDB Atlas](https://www.mongodb.com/atlas) and sign up or log in & Create a Cluster
+  #### 2: Create a Database User
+  #### 3: Get Connection String
+  #### 4: Update the .env File , update the MONGO_URL field
 
 ## 🗄️ Importing Sample Products
 - If you want to pre-fill the products database with sample products, you can import outfitsstore.products.json into MongoDB, Alternatively, you can add products via the admin dashboard.
