@@ -23,8 +23,8 @@ This is a full-stack e-commerce web application where users can browse and purch
   ```
 
 ### ⚙️ Environment Variables
-- Create a .env file in both backend and frontend by copying .env.example and filling in the required values.
-**Backend (.env)**
+Create a .env file in both backend and frontend by copying .env.example and filling in the required values.
+- **Backend (.env)**
   ```bash
   SERVER_PORT=5000
   MONGO_URL=your_mongo_url
