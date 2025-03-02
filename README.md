@@ -87,9 +87,9 @@ This project requires a MongoDB Atlas database. Follow the steps below to create
 
 ## 💳 Setting Up Stripe Payment Integration
 This project uses Stripe for payment processing. Follow these steps to set up your Stripe account and add the required keys.
-- 1. Go to [Stripe](https://stripe.com/) and sign up or log in.
-- 2. Navigate to Developers > API keys
-- 3. You’ll see two types of keys:
+- 1 Go to [Stripe](https://stripe.com/) and sign up or log in.
+- 2 Navigate to Developers > API keys
+- 3 You’ll see two types of keys:
   - Publishable Key (pk_test_...) → Used in the frontend .env
   - Secret Key (sk_test_...) → Used in the backend .env
-- 4. update your environment files
+- 4 update your environment files
