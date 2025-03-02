@@ -4,8 +4,9 @@ This is a full-stack e-commerce web application where users can browse and purch
 
 🚀 Features
 - ✅ User authentication (Register/Login)
-- ✅ Add to cart & Checkout
+- ✅ Adding product to cart, adjusting quantities and removing product from cart
+- ✅ Checkout
 - ✅ View your order
 - ✅ Payment integration (Stripe)
-- ✅ Admin dashboard to manage products, carts and orders
+- ✅ Admin dashboard to manage users, carts, orders and products
 - ✅ Responsive design
