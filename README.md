@@ -43,16 +43,24 @@ This is a full-stack e-commerce web application where users can browse and purch
 ### 💳 Payment Integration
 - stripe: Used to process payments via Stripe API
 
-## 1️⃣ Backend Setup
+## Backend Setup
   ```bash
   cd backend
   npm install
   ```
-## 2️⃣ Frontend Setup
+## Frontend Setup
   ```bash
   cd frontend
   npm install
   ```
+## Nodemon Setup
+  ```bash
+  npm install -g nodemon
+  ```
+
+
+## 🔧 Setting Up MongoDB Atlas & Connecting to Backend
+- This project requires a MongoDB Atlas database.
 
 ## ⚙️ Environment Variables
 Create a .env file in both backend and frontend by copying .env.example and filling in the required values.
