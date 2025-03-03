@@ -81,7 +81,7 @@ cd frontend
 npm install
 ```
 
-### **4️⃣ Install Nodemon (Optional, for Development)**  
+### **4️⃣ Install Nodemon**  
 ```sh
 npm install -g nodemon
 ```
