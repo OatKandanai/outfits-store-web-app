@@ -96,7 +96,7 @@ Create a `.env` file in **both the frontend and backend** by copying `.env.examp
 ```env
 SERVER_PORT=5000
 MONGO_URL=your_mongodb_connection_string
-JWT_SECRETKEY=your_secret_key
+JWT_SECRETKEY=your_secret_key (can be any string of your choice)
 STRIPE_SECRET_KEY=your_stripe_secret_key
 CLIENT_URL=http://localhost:3000
 ```
