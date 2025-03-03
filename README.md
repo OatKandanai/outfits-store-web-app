@@ -126,7 +126,7 @@ This project requires **MongoDB Atlas** as the database. Follow these steps:
 If you want to populate the database with sample products:  
 
 - Locate `outfitsstore.products.json` in the **products data** folder.  
-- Import it into MongoDB through atlas dashboard or with [MongoDB Compass](https://www.mongodb.com/try/download/compass)  
+- Import it into MongoDB through Atlas dashboard or with [MongoDB Compass](https://www.mongodb.com/try/download/compass)  
 
 ---
 
