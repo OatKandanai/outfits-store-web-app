@@ -187,7 +187,7 @@ npm start
 To access the **Admin Dashboard**, you need to set a user as an **admin** in the database.
 
 1️⃣ **Register a new user** (or use an existing one).  
-2️⃣ Open **MongoDB Compass** or **MongoDB Atlas** and go to the **user collection**.  
+2️⃣ Open **MongoDB Compass** or **MongoDB Atlas** and go to the **users collection**.  
 3️⃣ Find the user document and manually update their **isAdmin** field to **true**:  
 ```json
 {
