@@ -61,7 +61,7 @@ A **full-stack e-commerce web application** where users can browse, add products
 
 ---
 
-## 🔧 Installation & Setup  
+## Installation & Setup  
 
 ### **1️⃣ Clone the Repository**  
 ```sh
@@ -88,7 +88,7 @@ npm install -g nodemon
 
 ---
 
-## ⚙️ Environment Variables  
+## Environment Variables  
 
 Create a `.env` file in **both the frontend and backend** by copying `.env.example` and filling in the required values.
 
