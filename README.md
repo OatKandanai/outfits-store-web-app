@@ -1,21 +1,21 @@
-# 🛍️ Outfits Store Project  
+# Outfits Store Project  
 
 A **full-stack e-commerce web application** where users can browse, add products to their cart, place orders, and make payments using **Stripe**. The project consists of a **React frontend** and a **Node.js/Express backend with MongoDB**, featuring authentication, and an admin dashboard.
 
 ---
 
-## 🚀 Features  
-✅ User authentication (Register/Login)  
-✅ Add, update, and remove products from the cart  
-✅ Secure checkout process  
-✅ View past orders  
-✅ Payment processing with Stripe  
-✅ Admin dashboard for managing users, carts, orders, and products  
-✅ Responsive design  
+## Features  
+- User authentication (Register/Login)  
+- Add, update, and remove products from the cart  
+- Secure checkout process  
+- View past orders  
+- Payment processing with Stripe  
+- Admin dashboard for managing users, carts, orders, and products  
+- Responsive design  
 
 ---
 
-## 🛠️ Tech Stack (MERN)  
+## Tech Stack (MERN)  
 
 | **Technology** | **Usage** |
 |--------------|-------------|
@@ -28,35 +28,35 @@ A **full-stack e-commerce web application** where users can browse, add products
 
 ---
 
-## 📦 Dependencies  
+## Dependencies  
 
 ### **Frontend**  
-#### 🛠 Core React  
+#### Core React  
 - **react, react-dom** → Core React libraries  
-#### 🎨 UI & Styling  
+#### UI & Styling  
 - **styled-components** → Allows writing CSS-in-JS  
 - **@mui/icons-material** → Material-UI icons  
-#### 🔀 State Management  
+#### State Management  
 - **@reduxjs/toolkit** → Redux state management  
 - **react-redux** → Connects Redux with React  
 - **redux-persist** → Saves state across page reloads  
-#### 🌐 API & Routing  
+#### API & Routing  
 - **axios** → For making HTTP requests  
 - **react-router-dom** → Handles navigation  
-#### 💳 Payment Integration  
+#### Payment Integration  
 - **@stripe/react-stripe-js, @stripe/stripe-js** → Stripe payment libraries  
 
 ### **Backend**  
-#### 🛠 Server & Framework  
+#### Server & Framework  
 - **express** → Web framework for building APIs  
 - **cors** → Handles cross-origin requests  
 - **dotenv** → Loads environment variables from a `.env` file  
-#### 🔐 Authentication & Security  
+#### Authentication & Security  
 - **jsonwebtoken (JWT)** → User authentication  
 - **bcrypt** → Hashes passwords securely  
-#### 🗄 Database  
+#### Database  
 - **mongoose** → MongoDB ORM (Object Relational Mapper)  
-#### 💳 Payment Integration  
+#### Payment Integration  
 - **stripe** → Stripe API for payments  
 
 ---
@@ -121,7 +121,7 @@ This project requires **MongoDB Atlas** as the database. Follow these steps:
 
 ---
 
-## 🗂️ Importing Sample Products (Optional)  
+## Importing Sample Products (Optional)  
 
 If you want to populate the database with sample products:  
 
@@ -131,7 +131,7 @@ If you want to populate the database with sample products:
 
 ---
 
-## 💳 Stripe Payment Setup  
+## Stripe Payment Setup  
 
 This project uses **Stripe** for payment processing. Follow these steps:  
 
@@ -158,31 +158,31 @@ npm start
 
 ---
 
-## 📜 API Endpoints  
+## API Endpoints  
 
-### **🔑 Authentication**  
+### **Authentication**  
 - `POST /api/auth/register` → Register a new user  
 - `POST /api/auth/login` → Login and get JWT  
 
-### **🛍️ Products**  
+### **Products**  
 - `GET /api/products` → Fetch all products  
 - `GET /api/products/:id` → Get a specific product  
 
-### **🛒 Cart**  
+### **Cart**  
 - `POST /api/cart` → Add item to cart  
 - `DELETE /api/cart/:id` → Remove item from cart  
 
-### **📦 Orders**  
+### **Orders**  
 - `POST /api/orders` → Create an order  
 - `GET /api/orders/:userId` → Get user orders  
 - `DELETE /api/orders/:orderId` → Cancel an order  
 
-### **💳 Payment (Stripe)**  
+### **Payment (Stripe)**  
 - `POST /api/checkout/payment` → Process payment
 
 ---
 
-## 🔑 Setting Up Admin Access  
+## Setting Up Admin Access  
 
 To access the **Admin Dashboard**, you need to set a user as an **admin** in the database.
 
