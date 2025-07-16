@@ -109,7 +109,7 @@ REACT_APP_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
 
 ---
 
-## 🗄️ Setting Up MongoDB Atlas  
+## Setting Up MongoDB Atlas  
 
 This project requires **MongoDB Atlas** as the database. Follow these steps:  
 
@@ -144,7 +144,7 @@ This project uses **Stripe** for payment processing. Follow these steps:
 
 ---
 
-## 🚀 Running the Project  
+## Running the Project  
 
 ```sh
 # Start backend
